@@ -1,0 +1,13 @@
+[project]
+name = "poma-senter"
+version = "0.1.0"
+description = "Sentence and line-level text cleaner for .poma and Markdown"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MPL-2.0" }
+authors = [{ name = "TIGON S.L.U.", email = "info@poma.science" }]
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
