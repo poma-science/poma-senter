@@ -25,7 +25,6 @@ Ideal whenever you need reliable one-sentence-per-line output.
 
 > 👉 See how it fits into the full POMA pipeline:  
 > [poma-science/.github README](https://github.com/poma-science/.github#quick-start)  
-> [Example Workflow](https://github.com/poma-science/.github/blob/main/example/flow.py)
 
 ---
 
