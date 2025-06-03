@@ -1,6 +1,6 @@
 [project]
 name = "poma-senter"
-version = "0.1.0"
+dynamic = ["version"]
 description = "Sentence and line-level text cleaner for .poma and Markdown"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -11,3 +11,12 @@ dependencies = []
 [build-system]
 requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
+
+[tool.setuptools.dynamic]
+version = {attr = "poma_senter.version.__version__"}
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

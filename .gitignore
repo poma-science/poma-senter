@@ -1,14 +1,19 @@
-*.bak
-*.diff
-*.egg-info/
-*.log
-*.orig
-*.patch
-*.py[cod]
-*.rej
-*.swo
-*.swp
-*.tmp
+# Ignore the .gits workflow: ignore everything except this file
+*
+!.gitignore
+
+# When ready to publish, replace the above with specific ignores like:
+# *.bak
+# *.diff
+# *.egg-info/
+# *.log
+# *.orig
+# *.patch
+# *.py[cod]
+# *.rej
+# *.swo
+# *.swp
+# *.tmp
 *~
 .AppleDouble
 .DS_Store
