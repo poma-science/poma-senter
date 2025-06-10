@@ -1,15 +1,15 @@
-# Ignore the .gits workflow: ignore everything except this file
-# *
-!.gitignore
-
-# Standard Python ignore patterns
 *.bak
+*.crt
 *.diff
 *.egg-info/
+*.key
 *.log
 *.orig
 *.patch
-*.py[cod]
+*.pem
+*.pyc
+*.pyd
+*.pyo
 *.rej
 *.swo
 *.swp
@@ -19,12 +19,7 @@
 .DS_Store
 .LSOverride
 .env
+.env.*
 __pycache__/
 build/
 dist/
-.env.*
-*.key
-*.pem
-*.crt
-*.pyc
-*.pyo
